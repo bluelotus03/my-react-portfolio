@@ -1,0 +1,142 @@
+main {
+  width: 75%;
+  max-width: 65rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 7rem 0;
+}
+
+/*** Top landing section ***/
+
+#landing {
+  display: grid;
+  gap: 2rem;
+  grid-template-areas:
+    "headline headline ."
+    "about img img";
+}
+
+@media (max-width: 33.75em) {
+  #landing {
+    grid-template-areas:
+      "headline headline ."
+      "img . ."
+      "about . .";
+  }
+}
+
+#landing .headline {
+  font-weight: 500;
+  grid-area: headline;
+  font-size: var(--font-xlarge);
+  color: rgb(255, 255, 255);
+}
+
+#landing .headline > a > span {
+  font-weight: bold;
+  color: var(--blue-regular);
+}
+
+#landing .headline a {
+  text-decoration: none;
+}
+
+#landing img {
+  grid-area: img;
+  margin-top: -2rem;
+}
+
+article.about-me {
+  grid-area: about;
+  height: fit-content;
+  color: rgb(247, 246, 246);
+}
+
+.social {
+  color: white;
+}
+
+.social-container {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.social-container {
+  padding: 0;
+}
+
+.social-container li a:link,
+.social-container li a:visited {
+  text-decoration: none;
+  color: var(--blue-regular);
+  font-size: 1.5rem;
+}
+
+.connect-text {
+  font-size: 1rem;
+  font-weight: medium;
+}
+
+/***************************/
+
+/*** Projects section ***/
+
+.projects-section {
+  position: relative;
+}
+
+.black-heading {
+  color: black;
+}
+
+.blue-box {
+  background-color: var(--blue-light);
+  width: 200vw;
+  position: absolute;
+  transform: translateX(-50%);
+  top: -2rem;
+  bottom: -2rem;
+}
+
+.project-cards {
+  z-index: 2;
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  position: relative;
+  /* ADDED! */
+  flex-wrap: wrap;
+}
+
+.projects-intro {
+  color: black;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+#Projects .black-heading {
+  color: black;
+}
+/************************/
+
+/*** Experience section ***/
+
+.experience-accordions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.white-p {
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+/**************************/
