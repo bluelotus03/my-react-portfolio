@@ -261,7 +261,7 @@ export function App() {
             <ProjectCard
               title="Coffee Lovers"
               description="A fun website for coffee lovers created for the MLH INIT Hackathon."
-              link="https://www.youtube.com/watch?v=cJorpvFMQ0g"
+              link="https://youtu.be/X25p8FuYvKw"
               imgSrc="/assets/coffee-lovers.png"
             />
           </div>
@@ -275,7 +275,7 @@ export function App() {
             <ProjectCard
               title="Save the Holiday!"
               description="A holiday-themed game built with Kaboom JS for MLH Hackathons."
-              link="https://www.youtube.com/watch?v=kErJsKQj3OM"
+              link="https://devpost.com/software/save-the-holiday"
               imgSrc="/assets/save-the-holiday.png"
             />
             <ProjectCard
@@ -298,7 +298,7 @@ export function App() {
             />
             <ProjectCard
               title="The Cursed Forest"
-              description="A fun game created for the Hack-O-Lantern Hackathon."
+              description="A spooky text-based game created for the Hack-O-Lantern Hackathon."
               link="https://devpost.com/software/hack-o-lantern-game"
               imgSrc="/assets/cursed-forest.png"
             />
@@ -343,7 +343,7 @@ export function App() {
             <ProjectCard
               title="Web Team Guide"
               description="A guide for GWC's Web Team, creating the new website."
-              link="https://docs.google.com/document/d/1sxgaEG-Hd6xzkNaAmkmxFyy-j7IfFRTG25rmfYCoOFg/edit?usp=sharing"
+              link="https://drive.google.com/file/d/1jocg-hyROL04fPP95sdY1k7UCAokXszX/view?usp=sharing"
               imgSrc="/assets/web-guide.png"
             />
           </div>
