@@ -96,7 +96,7 @@ export function App() {
               <ul className="social-container">
                 <li className="social-items">
                   <a
-                    href="https://gwc-uncc.github.io/myportfolio/"
+                    href="https://gwc-uncc.github.io/Girls-Who-Code-at-UNCC/"
                     className="social_link"
                   >
                     <i className="social-icon">
@@ -223,7 +223,7 @@ export function App() {
               imgSrc="/assets/new-gwc-site.png"
             />
             <ProjectCard
-              title="GWC Website"
+              title="First GWC Website"
               description="Temporary single-page website, while our Web Team built a full website."
               link="https://youtu.be/Lu9n9t3DmOM"
               imgSrc="/assets/gwc-new-site.png"
@@ -248,7 +248,7 @@ export function App() {
             />
             <ProjectCard
               title="HomeSlice"
-              description="A hackathon project where Airbnb meets college housing."
+              description="A web app project where Airbnb meets college housing for Pearl Hacks."
               link="https://devpost.com/software/homesplice"
               imgSrc="/assets/homeslice.png"
             />
@@ -295,6 +295,12 @@ export function App() {
               description="A fun game created for my Build a Game Workshop with GWC."
               link="https://replit.com/@Ash00321/Build-a-Game-Workshop"
               imgSrc="/assets/space-invaders.png"
+            />
+            <ProjectCard
+              title="SMS Hangman"
+              description="A SMS game created alongside a workshop at MLH INIT."
+              link="https://youtu.be/qtLqbnlKoOg"
+              imgSrc="/assets/SMS-hangman.png"
             />
             <ProjectCard
               title="The Cursed Forest"
@@ -401,6 +407,11 @@ export function App() {
               website prototype. We explore topics such as text, shapes, layers,
               using plugins, creating effects, and more!
             </ExperienceAccordion>
+            <ExperienceAccordion title="Figma Workshop: Working in Teams">
+              This is a workshop from Girls Who Code at UNC Charlotte where we
+              walked through learning the basics of working with a team in Figma
+              and using a team style guide to create a simple website prototype.
+            </ExperienceAccordion>
             <ExperienceAccordion title="Create an Online Portfolio">
               This is a workshop where we learned to create an online portfolio
               from a template by simply replacing some of the HTML and CSS. We
@@ -423,11 +434,6 @@ export function App() {
               Invaders. It was meant to give students some experience working
               with a JavaScript library and seeing the result of that work in
               real-time.
-            </ExperienceAccordion>
-            <ExperienceAccordion title="Figma Workshop: Working in Teams">
-              This is a workshop from Girls Who Code at UNC Charlotte where we
-              walked through learning the basics of working with a team in Figma
-              and using a team style guide to create a simple website prototype.
             </ExperienceAccordion>
           </div>
         </section>
