@@ -68,4 +68,9 @@ p {
   .accordion img {
     height: 1.5rem;
   }
+  .navLinks {
+    visibility: hidden;
+    display: none;
+  }
 }
+
