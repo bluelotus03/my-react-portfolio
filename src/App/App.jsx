@@ -297,6 +297,12 @@ export function App() {
               imgSrc="/assets/space-invaders.png"
             />
             <ProjectCard
+              title="SMS Hangman"
+              description="A SMS game created alongside a workshop at MLH INIT."
+              link="https://youtu.be/qtLqbnlKoOg"
+              imgSrc="/assets/SMS-hangman.png"
+            />
+            <ProjectCard
               title="The Cursed Forest"
               description="A spooky text-based game created for the Hack-O-Lantern Hackathon."
               link="https://devpost.com/software/hack-o-lantern-game"
