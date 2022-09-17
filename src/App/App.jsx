@@ -96,7 +96,7 @@ export function App() {
               <ul className="social-container">
                 <li className="social-items">
                   <a
-                    href="https://gwc-uncc.github.io/myportfolio/"
+                    href="https://gwc-uncc.github.io/Girls-Who-Code-at-UNCC/"
                     className="social_link"
                   >
                     <i className="social-icon">
