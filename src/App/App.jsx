@@ -259,7 +259,7 @@ export function App() {
               imgSrc="/assets/homeslice.png"
             />
             <ProjectCard
-              title="Recycle & Reuse [v2]"
+              title="Recycle & Reuse (v2)"
               description="A web app created for my Software Design & Implementation class."
               link="https://youtu.be/12izD9hEYHA"
               imgSrc="/assets/r-and-r.png"
@@ -366,19 +366,19 @@ export function App() {
             />
             <ProjectCard
               title="R&R Research"
-              description="Mobile prototype design, needfinding, user studies for Recycle & Reuse [v1]."
+              description="Mobile prototype design, needfinding, user studies for Recycle & Reuse (v1)."
               link="https://drive.google.com/file/d/1cQHirOP9YxzeGIBg9bojPoRUMsp0abMP/view?usp=sharing"
               imgSrc="/assets/r-and-r-mobile.png"
             />
             <ProjectCard
               title="R&R UML Project"
-              description="Use Case, Activity, and Class Diagrams for Recycle & Reuse [v1]."
+              description="Use Case, Activity, and Class Diagrams for Recycle & Reuse (v1)."
               link="https://drive.google.com/file/d/1bBXq5T9iHCRh6iRgvRo1DaJftwTTdhD-/view?usp=sharing"
               imgSrc="/assets/r-and-r-diagrams.png"
             />
             <ProjectCard
               title="R&R User Stories"
-              description="User stories for Recycle & Reuse web app [v2]."
+              description="User stories for Recycle & Reuse web app (v2)."
               link="https://docs.google.com/spreadsheets/d/1vYiIE_FlUroqqt1UUGGmt8iTk_re1aG-tBTtcz28sec/edit?usp=sharing"
               imgSrc="/assets/r-and-r-US.png"
             />
