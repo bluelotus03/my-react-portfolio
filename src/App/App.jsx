@@ -223,7 +223,7 @@ export function App() {
               imgSrc="/assets/new-gwc-site.png"
             />
             <ProjectCard
-              title="GWC Prototype [v2]"
+              title="GWC Prototype (v2)"
               description="A Figma Prototype for the new GWC Website built in spring 2022."
               link="https://www.figma.com/file/YcMIVm9QH4AwPdtsDZqeQW/GWC-Website-Prototype?node-id=238%3A733"
               imgSrc="/assets/figma-prototype.png"
@@ -235,7 +235,7 @@ export function App() {
               imgSrc="/assets/gwc-new-site.png"
             />
             <ProjectCard
-              title="GWC Prototype [v1]"
+              title="GWC Prototype (v1)"
               description="A prototype created with Wix and Premiere Pro for a GWC website idea."
               link="https://youtu.be/6yToLcz0ufo"
               imgSrc="/assets/GWC-prototype.png"
