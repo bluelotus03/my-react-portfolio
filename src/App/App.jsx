@@ -223,13 +223,19 @@ export function App() {
               imgSrc="/assets/new-gwc-site.png"
             />
             <ProjectCard
+              title="GWC Prototype [v2]"
+              description="A Figma Prototype for the new GWC Website built in spring 2022."
+              link="https://www.figma.com/file/YcMIVm9QH4AwPdtsDZqeQW/GWC-Website-Prototype?node-id=238%3A733"
+              imgSrc="/assets/figma-prototype.png"
+            />
+            <ProjectCard
               title="First GWC Website"
               description="Temporary single-page website, while our Web Team built a full website."
               link="https://youtu.be/Lu9n9t3DmOM"
               imgSrc="/assets/gwc-new-site.png"
             />
             <ProjectCard
-              title="GWC Website Prototype"
+              title="GWC Prototype [v1]"
               description="A prototype created with Wix and Premiere Pro for a GWC website idea."
               link="https://youtu.be/6yToLcz0ufo"
               imgSrc="/assets/GWC-prototype.png"
@@ -253,7 +259,7 @@ export function App() {
               imgSrc="/assets/homeslice.png"
             />
             <ProjectCard
-              title="Recycle & Reuse"
+              title="Recycle & Reuse [v2]"
               description="A web app created for my Software Design & Implementation class."
               link="https://youtu.be/12izD9hEYHA"
               imgSrc="/assets/r-and-r.png"
@@ -351,6 +357,30 @@ export function App() {
               description="A guide for GWC's Web Team, creating the new website."
               link="https://drive.google.com/file/d/1jocg-hyROL04fPP95sdY1k7UCAokXszX/view?usp=sharing"
               imgSrc="/assets/web-guide.png"
+            />
+            <ProjectCard
+              title="CRS Project Guide"
+              description="A tools guide for the owner of Climate Refugee Stories."
+              link="https://drive.google.com/file/d/1iDDjn0r8tC-4_GhGMHVwdopDoEat55Pw/view?usp=sharing"
+              imgSrc="/assets/crs-guide.png"
+            />
+            <ProjectCard
+              title="R&R Research"
+              description="Mobile prototype design, needfinding, user studies for Recycle & Reuse [v1]."
+              link="https://drive.google.com/file/d/1cQHirOP9YxzeGIBg9bojPoRUMsp0abMP/view?usp=sharing"
+              imgSrc="/assets/r-and-r-mobile.png"
+            />
+            <ProjectCard
+              title="R&R UML Project"
+              description="Use Case, Activity, and Class Diagrams for Recycle & Reuse [v1]."
+              link="https://drive.google.com/file/d/1bBXq5T9iHCRh6iRgvRo1DaJftwTTdhD-/view?usp=sharing"
+              imgSrc="/assets/r-and-r-diagrams.png"
+            />
+            <ProjectCard
+              title="R&R User Stories"
+              description="User stories for Recycle & Reuse web app [v2]."
+              link="https://docs.google.com/spreadsheets/d/1vYiIE_FlUroqqt1UUGGmt8iTk_re1aG-tBTtcz28sec/edit?usp=sharing"
+              imgSrc="/assets/r-and-r-US.png"
             />
           </div>
         </section>
