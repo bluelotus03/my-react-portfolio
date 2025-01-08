@@ -23,9 +23,9 @@ export function App() {
               rel="noreferrer"
               target="_blank"
             >
-              <span>Ashley</span>
+              <span>Ash</span>
             </a>
-            , and I love to learn!
+            !
           </h1>
           <img
             alt="Software engineer illustration"
@@ -35,14 +35,21 @@ export function App() {
           <article className="about-me">
             <Heading id="About">About Me</Heading>
             <p className="white-p">
-              My name is Ashley Harmon, and I'm a MSIT student at UNCC and
-              Software Engineer Intern at Genesys. I love to create games,
-              websites, and explore new topics. <br />
-              <br />I was also the Web & Media Chair for Girls Who Code at UNC
-              Charlotte, where I created and ran our very first hackathon, Axe
-              Hacks, and designed our media materials. I also enjoyed creating
-              technical workshops for us all to learn together. Check out these
-              workshops and some of my projects below!
+              My name is Ashley Harmon (Ash), and I'm a passionate designer,
+              developer, and problem-solver who loves to learn.
+              <br />
+              <br />
+              I graduated from UNCC with a B.S. in Computer Science and a M.S.
+              in Information Technology. I was the Web & Media Chair for Girls
+              Who Code at UNC Charlotte, where I created and ran our very first
+              hackathon, Axe Hacks, and designed our logo and media materials. I
+              also enjoyed creating technical workshops for us all to learn
+              together.
+              <br />
+              <br />
+              Check out these workshops and some of my projects below, or
+              connect with me on my socials to see what I'm currently up to!
+              (Full bio on LinkedIn)
             </p>
             <br />
             <div className="social">
@@ -80,6 +87,16 @@ export function App() {
                 </li>
                 <li className="social-items">
                   <a
+                    href="https://www.instagram.com/bluelotus03tech/"
+                    className="social_link"
+                  >
+                    <i className="social-icon">
+                      <FontAwesomeIcon icon={["fab", "instagram"]} />
+                    </i>
+                  </a>
+                </li>
+                <li className="social-items">
+                  <a
                     href="https://github.com/bluelotus03"
                     className="social_link"
                   >
@@ -96,7 +113,7 @@ export function App() {
               <ul className="social-container">
                 <li className="social-items">
                   <a
-                    href="https://gwc-uncc.github.io/Girls-Who-Code-at-UNCC/"
+                    href="https://gwc-uncc.github.io/myportfolio/"
                     className="social_link"
                   >
                     <i className="social-icon">
@@ -223,19 +240,13 @@ export function App() {
               imgSrc="/assets/new-gwc-site.png"
             />
             <ProjectCard
-              title="GWC Prototype (v2)"
-              description="A Figma Prototype for the new GWC Website built in spring 2022."
-              link="https://www.figma.com/file/YcMIVm9QH4AwPdtsDZqeQW/GWC-Website-Prototype?node-id=238%3A733"
-              imgSrc="/assets/figma-prototype.png"
-            />
-            <ProjectCard
-              title="First GWC Website"
+              title="GWC Website"
               description="Temporary single-page website, while our Web Team built a full website."
               link="https://youtu.be/Lu9n9t3DmOM"
               imgSrc="/assets/gwc-new-site.png"
             />
             <ProjectCard
-              title="GWC Prototype (v1)"
+              title="GWC Website Prototype"
               description="A prototype created with Wix and Premiere Pro for a GWC website idea."
               link="https://youtu.be/6yToLcz0ufo"
               imgSrc="/assets/GWC-prototype.png"
@@ -254,12 +265,12 @@ export function App() {
             />
             <ProjectCard
               title="HomeSlice"
-              description="A web app project where Airbnb meets college housing for Pearl Hacks."
+              description="A hackathon project where Airbnb meets college housing."
               link="https://devpost.com/software/homesplice"
               imgSrc="/assets/homeslice.png"
             />
             <ProjectCard
-              title="Recycle & Reuse (v2)"
+              title="Recycle & Reuse"
               description="A web app created for my Software Design & Implementation class."
               link="https://youtu.be/12izD9hEYHA"
               imgSrc="/assets/r-and-r.png"
@@ -267,7 +278,7 @@ export function App() {
             <ProjectCard
               title="Coffee Lovers"
               description="A fun website for coffee lovers created for the MLH INIT Hackathon."
-              link="https://youtu.be/X25p8FuYvKw"
+              link="https://www.youtube.com/watch?v=cJorpvFMQ0g"
               imgSrc="/assets/coffee-lovers.png"
             />
           </div>
@@ -281,7 +292,7 @@ export function App() {
             <ProjectCard
               title="Save the Holiday!"
               description="A holiday-themed game built with Kaboom JS for MLH Hackathons."
-              link="https://devpost.com/software/save-the-holiday"
+              link="https://www.youtube.com/watch?v=kErJsKQj3OM"
               imgSrc="/assets/save-the-holiday.png"
             />
             <ProjectCard
@@ -303,14 +314,8 @@ export function App() {
               imgSrc="/assets/space-invaders.png"
             />
             <ProjectCard
-              title="SMS Hangman"
-              description="A SMS game created alongside a workshop at MLH INIT."
-              link="https://youtu.be/qtLqbnlKoOg"
-              imgSrc="/assets/SMS-hangman.png"
-            />
-            <ProjectCard
               title="The Cursed Forest"
-              description="A spooky text-based game created for the Hack-O-Lantern Hackathon."
+              description="A fun game created for the Hack-O-Lantern Hackathon."
               link="https://devpost.com/software/hack-o-lantern-game"
               imgSrc="/assets/cursed-forest.png"
             />
@@ -355,32 +360,8 @@ export function App() {
             <ProjectCard
               title="Web Team Guide"
               description="A guide for GWC's Web Team, creating the new website."
-              link="https://drive.google.com/file/d/1jocg-hyROL04fPP95sdY1k7UCAokXszX/view?usp=sharing"
+              link="https://docs.google.com/document/d/1sxgaEG-Hd6xzkNaAmkmxFyy-j7IfFRTG25rmfYCoOFg/edit?usp=sharing"
               imgSrc="/assets/web-guide.png"
-            />
-            <ProjectCard
-              title="CRS Project Guide"
-              description="A tools guide for the owner of Climate Refugee Stories."
-              link="https://drive.google.com/file/d/1iDDjn0r8tC-4_GhGMHVwdopDoEat55Pw/view?usp=sharing"
-              imgSrc="/assets/crs-guide.png"
-            />
-            <ProjectCard
-              title="R&R Research"
-              description="Mobile prototype design, needfinding, user studies for Recycle & Reuse (v1)."
-              link="https://drive.google.com/file/d/1cQHirOP9YxzeGIBg9bojPoRUMsp0abMP/view?usp=sharing"
-              imgSrc="/assets/r-and-r-mobile.png"
-            />
-            <ProjectCard
-              title="R&R UML Project"
-              description="Use Case, Activity, and Class Diagrams for Recycle & Reuse (v1)."
-              link="https://drive.google.com/file/d/1bBXq5T9iHCRh6iRgvRo1DaJftwTTdhD-/view?usp=sharing"
-              imgSrc="/assets/r-and-r-diagrams.png"
-            />
-            <ProjectCard
-              title="R&R User Stories"
-              description="User stories for Recycle & Reuse web app (v2)."
-              link="https://docs.google.com/spreadsheets/d/1vYiIE_FlUroqqt1UUGGmt8iTk_re1aG-tBTtcz28sec/edit?usp=sharing"
-              imgSrc="/assets/r-and-r-US.png"
             />
           </div>
         </section>
@@ -391,7 +372,7 @@ export function App() {
             taught for Girls Who Code at UNC Charlotte. All recordings and
             guides created for these workshops can be found&nbsp;
             <a
-              href="https://docs.google.com/document/d/1fUOufYgRbcGCmlwe0PDt1L7SaFI-rOlK-KjRlsTU5cs/edit"
+              href="https://docs.google.com/document/d/1fUOufYgRbcGCmlwe0PDt1L7SaFI-rOlK-KjRlsTU5cs"
               rel="noreferrer"
               target="_blank"
               className="no-line-link"
@@ -400,7 +381,7 @@ export function App() {
             </a>{" "}
             and are listed in the same order. Also check out my&nbsp;
             <a
-              href="https://drive.google.com/file/d/1gOFFOHQWLQels2c5wtD1bt283hHhj6Z1/view?usp=sharing"
+              href="https://drive.google.com/file/d/1gOFFOHQWLQels2c5wtD1bt283hHhj6Z1"
               rel="noreferrer"
               target="_blank"
               className="no-line-link"
@@ -437,11 +418,6 @@ export function App() {
               website prototype. We explore topics such as text, shapes, layers,
               using plugins, creating effects, and more!
             </ExperienceAccordion>
-            <ExperienceAccordion title="Figma Workshop: Working in Teams">
-              This is a workshop from Girls Who Code at UNC Charlotte where we
-              walked through learning the basics of working with a team in Figma
-              and using a team style guide to create a simple website prototype.
-            </ExperienceAccordion>
             <ExperienceAccordion title="Create an Online Portfolio">
               This is a workshop where we learned to create an online portfolio
               from a template by simply replacing some of the HTML and CSS. We
@@ -464,6 +440,11 @@ export function App() {
               Invaders. It was meant to give students some experience working
               with a JavaScript library and seeing the result of that work in
               real-time.
+            </ExperienceAccordion>
+            <ExperienceAccordion title="Figma Workshop: Working in Teams">
+              This is a workshop from Girls Who Code at UNC Charlotte where we
+              walked through learning the basics of working with a team in Figma
+              and using a team style guide to create a simple website prototype.
             </ExperienceAccordion>
           </div>
         </section>
