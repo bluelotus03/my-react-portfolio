@@ -36,7 +36,7 @@ export function App() {
             <Heading id="About">About Me</Heading>
             <p className="white-p">
               My name is Ashley Harmon (Ash), and I'm a passionate designer,
-              developer, and problem-solver who loves to learn.
+              developer, and problem-solver. I love to learn new things and bring a creative approach to technical situations.
               <br />
               <br />
               I graduated from UNCC with a B.S. in Computer Science and a M.S.
