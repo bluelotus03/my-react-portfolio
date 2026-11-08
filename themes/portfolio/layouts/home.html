@@ -63,5 +63,15 @@
       {{- end -}}
     </div>
   </section>
+  <section id="website-n-prototypes">
+    <h2>Guides</h2>
+    <div class="project-cards">
+      {{- range where .Site.Sections "Type" "guides" -}}
+        {{- range .Pages -}}
+          {{- .Render "_views/card" -}}
+        {{- end -}}
+      {{- end -}}
+    </div>
+  </section>
 {{ end }}
 

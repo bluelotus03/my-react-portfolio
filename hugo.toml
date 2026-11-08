@@ -31,14 +31,25 @@ enableInlineShortcodes = true
     weight = 10
 
   [[menus.main]]
-    name = 'Posts'
-    pageRef = '/posts'
+    name = 'Workshops'
+    pageRef = '/#workshops'
     weight = 20
 
   [[menus.main]]
-    name = 'Tags'
-    pageRef = '/tags'
+    name = 'Guides'
+    pageRef = '/#guides'
     weight = 30
+
+  [[menus.main]]
+    name = 'Websites & Prototypes'
+    pageRef = '/#guides'
+    weight = 40
+  
+  [[menus.main]]
+    name = 'Websites & Prototypes'
+    pageRef = '/#website-n-prototypes'
+    weight = 40
+
 
 [module]
   [module.hugoVersion]
