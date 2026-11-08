@@ -23,9 +23,8 @@
   }
 }
 
-.white-p {
+.hero-p {
   grid-column: span 2;
-  color: white;
   h2 {
     margin-bottom: .5rem;
   }
@@ -38,4 +37,20 @@
   p:not(:last-child){
     margin-bottom: 1rem;
   }
+}
+
+.social {
+  margin-top: 4rem;
+}
+
+.social-container {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.social-link svg {
+  height: 2.5rem;
+  width: 2.5rem;
 }

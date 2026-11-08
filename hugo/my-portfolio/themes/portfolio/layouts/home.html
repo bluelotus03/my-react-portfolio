@@ -1,7 +1,36 @@
+{{- define "_partials/inline/home/social.html" }}
+  {{- range . }}
+    <li class="social-items">
+      <a
+        href="{{ .url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="{{ .icon }}"
+        title="{{ .icon }}"
+        class="social-link"
+      >
+      {{ partial "icons/icon" (dict
+        "vendor" "fab"
+        "name" .icon
+      ) }}
+      </a>
+    </li>
+  {{- end }}
+{{- end }}
+
 {{ define "main" }}
   <section id="landing">
     <h1 class="headline">{{ .Params.intro }} <span>{{.Params.name}}</span>!</h1>
-    <div class="white-p">{{ .Content }}</div>
+    <article class="hero-p white">
+      {{ .Content }}
+      <div class="social">
+        <h3 class="white">Connect with Me</h3>
+        <ul class="social-container">
+          {{ partial "inline/home/social.html" .Params.personal_socials }}
+        </ul>
+      </div>
+    </article>
     <img src="/main-image.svg" alt="" srcset="">
   </section>
 {{ end }}
+

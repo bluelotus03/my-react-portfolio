@@ -4,6 +4,13 @@ date: 2023-01-01T08:00:00-07:00
 draft: false
 intro: "👋 Hey there, I'm "
 name: "Ash"
+personal_socials:
+  - url: https://www.linkedin.com/in/ashharmon/
+    icon: linkedin
+  - url: https://www.youtube.com/channel/UCrBn4DZnHLNc-hULSA1H36w
+    icon: youtube
+  - url: https://twitter.com/ash_hrz00
+    icon: twitter
 ---
 
 <!-- keep a header here, or modify home.css padding -->
