@@ -1,5 +1,6 @@
 {{- define "_partials/inline/home/social.html" }}
   {{- range . }}
+  {{- $vendor := .vendor | default "font-awesome-brands" }}
     <li class="social-items">
       <a
         href="{{ .url }}"
@@ -9,8 +10,9 @@
         title="{{ .icon }}"
         class="social-link"
       >
+      <!-- https://icons.hugomods.com/docs/vendors/ -->
       {{ partial "icons/icon" (dict
-        "vendor" "fab"
+        "vendor" $vendor
         "name" .icon
       ) }}
       </a>
@@ -27,6 +29,14 @@
         <h3 class="white">Connect with Me</h3>
         <ul class="social-container">
           {{ partial "inline/home/social.html" .Params.personal_socials }}
+        </ul>
+        <h3 class="white">My work for GWC ~ Jan'21 to May'22</h3>
+        <ul class="social-container">
+          {{ partial "inline/home/social.html" .Params.gwc_links }}
+        </ul>
+        <h3 class="white">My work for Axe Hacks ~ Jan'22 to May'22</h3>
+        <ul class="social-container">
+          {{ partial "inline/home/social.html" .Params.axehacks_links }}
         </ul>
       </div>
     </article>

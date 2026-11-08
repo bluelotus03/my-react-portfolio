@@ -11,6 +11,19 @@ personal_socials:
     icon: youtube
   - url: https://twitter.com/ash_hrz00
     icon: twitter
+  - url: https://www.instagram.com/bluelotus03tech/
+    icon: instagram
+  - url: https://github.com/bluelotus03
+    icon: github
+gwc_links:
+  - url: https://gwc-uncc.github.io/myportfolio/
+    vendor: font-awesome-solid
+    # https://github.com/hugomods/font-awesome/blob/6.x/svgs/solid/globe.svg
+    icon: globe
+axehacks_links:
+  - url: https://gwc-uncc.github.io/axe-hacks-2022/
+    vendor: font-awesome-solid
+    icon: globe
 ---
 
 <!-- keep a header here, or modify home.css padding -->
