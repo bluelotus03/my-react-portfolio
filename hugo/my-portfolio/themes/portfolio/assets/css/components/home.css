@@ -71,5 +71,8 @@
   display: flex;
   gap: 2rem;
   justify-content: center;
+  align-items: stretch;
+  align-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }

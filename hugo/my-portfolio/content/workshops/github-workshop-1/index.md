@@ -12,3 +12,5 @@ The guides used are linked below, and you can skip ahead with the timestamps if 
 
 Workshop Guide: https://github.com/GWC-UNCC/Git-Intro
 Setup Guide (Installs): https://bit.ly/3kFKVTN
+
+![image](yt-cover_photo.jpg)

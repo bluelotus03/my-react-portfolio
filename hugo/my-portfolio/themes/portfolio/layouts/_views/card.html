@@ -1,5 +1,9 @@
-<div class="card">
-  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-  {{ .Title }} <br>
-  {{ .Description }}
-</div>
+<a href="{{ .RelPermalink }}" class="cClink">
+  <div class="cardContainer">
+    <h3>{{ .Title }}</h3>
+    <p>{{ .Description }}</p>
+    {{ with .Resources.GetMatch "cover.*" }}
+    <img src="{{ .RelPermalink }}" alt="">
+    {{ end }}
+  </div>
+</a>
