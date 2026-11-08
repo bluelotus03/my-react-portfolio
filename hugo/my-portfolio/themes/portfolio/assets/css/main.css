@@ -82,7 +82,7 @@ h3 {
   position: absolute;
   transform: translateX(-50%);
   top: -2rem;
-  bottom: -2rem;
+  bottom: -8rem;
   z-index: -100;
 }
 
@@ -97,6 +97,7 @@ h3 {
 
 main {
   width: var(--base-width);
+  max-width: 100rem;
   margin: auto;
   padding: 10rem 0;
 }
