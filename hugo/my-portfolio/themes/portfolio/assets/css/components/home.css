@@ -1,3 +1,15 @@
+.is-home {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.is-home section {
+  position: relative;
+  isolation: isolate;
+}
+
+
 #landing {
   display: grid;
   gap: 2.5rem;

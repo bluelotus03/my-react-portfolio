@@ -7,7 +7,12 @@
   <header>
     {{ partial "header.html" . }}
   </header>
-  <main>
+
+  {{- $environment := hugo.Environment | default "production" -}}
+  {{- $body_classes := slice $environment -}}
+  {{- $body_classes = $body_classes | append (printf "is-%s" .Kind) -}}
+
+  <main class="{{ delimit $body_classes " " }}">
     {{ block "main" . }}{{ end }}
   </main>
   <footer>

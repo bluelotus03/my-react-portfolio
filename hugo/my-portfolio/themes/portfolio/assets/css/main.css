@@ -74,7 +74,18 @@ h3 {
 .white {
   color: white;
 }
-
+.blue-bg {
+  background-color: var(--blue-light);
+  width: 200vw;
+  position: absolute;
+  transform: translateX(-50%);
+  top: -2rem;
+  bottom: -2rem;
+  z-index: -100;
+}
+.black-heading {
+  color: black;
+}
 /* ::selection {
   background-color: var(--color-primary);
   color: var(--color-white);
