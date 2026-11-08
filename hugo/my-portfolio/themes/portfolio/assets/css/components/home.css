@@ -9,7 +9,6 @@
   isolation: isolate;
 }
 
-
 #landing {
   display: grid;
   gap: 2.5rem;
@@ -65,4 +64,12 @@
 .social-link svg {
   height: 2.5rem;
   width: 2.5rem;
+}
+
+.project-cards {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }

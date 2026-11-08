@@ -45,6 +45,18 @@
   <section id="workshops">
     <div class="blue-bg"></div>
     <h2 class="black-heading">Workshops</h2>
+    <div class="project-cards">
+      {{- range where .Site.Sections "Type" "workshops" -}}
+        {{- range .Pages -}}
+          {{- .Render "_views/card" -}}
+        {{- end -}}
+      {{- end -}}
+      <a href="" class="cClink">
+        <div class="cardContainer">
+          <h3></h3>
+        </div>
+      </a>
+    </div>
   </section>
 {{ end }}
 

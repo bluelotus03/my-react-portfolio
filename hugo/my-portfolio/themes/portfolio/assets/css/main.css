@@ -2,6 +2,7 @@
 @import "components/header.css";
 @import "components/footer.css";
 @import "components/home.css";
+@import "components/card.css";
 
 :root {
   --blue-lightest: hsl(0, 0%, 0%);
@@ -83,7 +84,9 @@ h3 {
   bottom: -2rem;
   z-index: -100;
 }
-.black-heading {
+
+.blue-bg ~ * {
+  /* when background is blue text color is black */
   color: black;
 }
 /* ::selection {
