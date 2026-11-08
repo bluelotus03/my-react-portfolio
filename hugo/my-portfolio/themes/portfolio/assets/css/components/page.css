@@ -6,7 +6,15 @@
     h1 {
         padding-bottom: 3rem;
     }
-    p {
+    p, figcaption {
         font-size: var(--font-regular);
+        margin: 1.5rem 0;
+    }
+    figcaption {
+        text-align: center;
+    }
+    img {
+        border: var(--blue-light) 1px solid;
+        margin: 1rem;
     }
 }

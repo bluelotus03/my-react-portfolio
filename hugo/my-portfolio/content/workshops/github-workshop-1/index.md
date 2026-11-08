@@ -11,6 +11,13 @@ This is a workshop from Girls Who Code at UNC Charlotte where we walked through 
 The guides used are linked below, and you can skip ahead with the timestamps if you already have things installed or know how to do something. Check out our links at the bottom for GWC resources and a workshop covering the Next Level items in the guide. 
 
 Workshop Guide: https://github.com/GWC-UNCC/Git-Intro
+
 Setup Guide (Installs): https://bit.ly/3kFKVTN
 
-![image](yt-cover_photo.jpg)
+![image](cover.jpg)
+
+{{< youtube cGU5RUMHy38 >}}
+Actual workshop on YT
+{{< /youtube >}}
+
+Content afterwards

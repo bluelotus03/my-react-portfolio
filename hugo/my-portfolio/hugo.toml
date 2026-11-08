@@ -2,6 +2,26 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'Ashley Harmon'
 theme = 'portfolio'
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = true
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.x]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.youTube]
+    disable = false
+    privacyEnhanced = true
 
 [menus]
   [[menus.main]]

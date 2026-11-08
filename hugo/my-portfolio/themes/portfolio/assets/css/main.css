@@ -102,3 +102,7 @@ main {
   margin: auto;
   padding: 10rem 0;
 }
+
+.vidcaption {
+  margin-bottom: 10px;
+}
