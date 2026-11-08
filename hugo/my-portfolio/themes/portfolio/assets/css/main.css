@@ -50,3 +50,9 @@ body {
   background-color: var(--color-primary);
   color: var(--color-white);
 } */
+
+main {
+  width: var(--base-width);
+  margin: auto;
+  padding: 12rem 0 0 0;
+}
