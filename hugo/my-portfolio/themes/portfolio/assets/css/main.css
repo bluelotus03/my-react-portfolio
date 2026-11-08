@@ -1,15 +1,50 @@
 @import "components/header.css";
 @import "components/footer.css";
 
-body {
-  color: #222;
-  font-family: sans-serif;
-  line-height: 1.5;
-  margin: 1rem;
-  max-width: 768px;
+:root {
+  --blue-lightest: hsl(0, 0%, 0%);
+  --blue-regular: #38b6ff;
+  --blue-dark: #2d2b3d;
+  --blue-light: #3db6fc;
+  --font-xsmall: 0.8rem;
+  --font-small: 0.9rem;
+  --font-regular: 1rem;
+  --font-large: 1.2rem;
+  --font-xlarge: 1.5rem;
 }
 
-a {
-  color: #00e;
-  text-decoration: none;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* for rem calculation to 10px start */
+  font-size: 62.5%; /* 1rem = 10px; 10px/16px = 62.5% */
+
+  /* tablet landscape
+  font-size: 56.25%; // 1 rem = 9px, 9/16 = 50% */
+  /* tablet portrait
+    font-size: 50%; // 1rem = 8px, 8/16 = 50% */
+  /* mobile
+     font-size: 30%; */
+  /* wide screen
+    font-size: 75%; // 1rem = 12, 12/16 */
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0 3rem;
+  /* tablet portrait
+    padding: 0; */
+  background-color: black;
+  color: var(--blue-regular);
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }
