@@ -1,9 +1,7 @@
 {{ define "main" }}
-  {{ .Content }}
-  {{ range site.RegularPages }}
-    <section>
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      {{ .Summary }}
-    </section>
-  {{ end }}
+  <section id="landing">
+    <h1 class="headline">{{ .Params.intro }} <span>{{.Params.name}}</span>!</h1>
+    <div class="white-p">{{ .Content }}</div>
+    <img src="/main-image.svg" alt="" srcset="">
+  </section>
 {{ end }}

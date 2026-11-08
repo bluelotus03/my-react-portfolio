@@ -1,6 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Noto+Sans|Roboto";
 @import "components/header.css";
 @import "components/footer.css";
+@import "components/home.css";
 
 :root {
   --blue-lightest: hsl(0, 0%, 0%);
@@ -21,14 +22,12 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  background-color: black;
-  color: var(--blue-regular);
-  font-family: Roboto;
 }
 
 html {
   /* for rem calculation to 10px start */
   font-size: 62.5%; /* 1rem = 10px; 10px/16px = 62.5% */
+  background-color: black;
 
   /* tablet landscape
   font-size: 56.25%; // 1 rem = 9px, 9/16 = 50% */
@@ -44,6 +43,30 @@ body {
   box-sizing: border-box;
   /* tablet portrait
     padding: 0; */
+  color: var(--blue-regular);
+  font-family: Roboto;
+}
+
+:link {
+  color: var(--blue-regular);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Noto Sans;
+  margin: 0;
+  color: var(--blue-regular);
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+h2 {
+  font-size: 2rem;
 }
 
 /* ::selection {
@@ -54,5 +77,5 @@ body {
 main {
   width: var(--base-width);
   margin: auto;
-  padding: 12rem 0 0 0;
+  padding: 10rem 0 0 0;
 }
