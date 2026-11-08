@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css?family=Noto+Sans|Roboto";
 @import "components/header.css";
 @import "components/footer.css";
 
@@ -6,11 +7,12 @@
   --blue-regular: #38b6ff;
   --blue-dark: #2d2b3d;
   --blue-light: #3db6fc;
-  --font-xsmall: 0.8rem;
-  --font-small: 0.9rem;
-  --font-regular: 1rem;
-  --font-large: 1.2rem;
-  --font-xlarge: 1.5rem;
+  --font-xsmall: 1.3rem;
+  --font-small: 1.4rem;
+  --font-regular: 1.6rem;
+  --font-large: 1.9rem;
+  --font-xlarge: 2.4rem;
+  --base-width: 75vw;
 }
 
 *,
@@ -19,6 +21,9 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  background-color: black;
+  color: var(--blue-regular);
+  font-family: Roboto;
 }
 
 html {
@@ -37,14 +42,11 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 0 3rem;
   /* tablet portrait
     padding: 0; */
-  background-color: black;
-  color: var(--blue-regular);
 }
 
-::selection {
+/* ::selection {
   background-color: var(--color-primary);
   color: var(--color-white);
-}
+} */
