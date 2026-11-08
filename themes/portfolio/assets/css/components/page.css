@@ -16,5 +16,6 @@
     img {
         border: var(--blue-light) 1px solid;
         margin: 1rem;
+        width: 100%;
     }
 }

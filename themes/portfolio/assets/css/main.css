@@ -38,6 +38,9 @@ html {
     font-size: 50%; // 1rem = 8px, 8/16 = 50% */
   /* mobile
      font-size: 30%; */
+  @media (max-width: 28em) {
+    font-size: 30%;
+  }
   /* wide screen
     font-size: 75%; // 1rem = 12, 12/16 */
 }
@@ -50,7 +53,7 @@ body {
   font-family: Roboto;
 }
 
-:link {
+:link, :visited {
   color: var(--blue-regular);
   text-decoration: none;
 }
@@ -101,6 +104,12 @@ main {
   max-width: 100rem;
   margin: auto;
   padding: 10rem 0;
+  @media (max-width: 50em) {
+    width: 85vw;
+  }
+  @media (max-width: 25em) {
+    width: 92vw;
+  }
 }
 
 .vidcaption {

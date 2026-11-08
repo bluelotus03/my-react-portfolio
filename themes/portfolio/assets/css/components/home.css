@@ -14,19 +14,24 @@
   display: grid;
   gap: 2.5rem;
   grid-auto-rows: repeat(2, 1fr);
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 
   img {
     margin-top: -3rem;
     grid-row: span 1;
-    grid-column: span 1;
+    grid-column: span 2;
+    max-width: 100%;
+    @media (max-width: 50em) {
+      grid-column: span 4;
+      margin-top: 0rem;
+    }
   }
 }
 
 .headline {
   color: white;
   font-weight: 500;
-  grid-column: span 3;
+  grid-column: span 4;
   grid-row: span 1;
   align-items: center;
   span {
@@ -37,6 +42,9 @@
 
 .hero-p {
   grid-column: span 2;
+  @media (max-width: 50em) {
+    grid-column: span 4;
+  }
   h2 {
     margin-bottom: .5rem;
   }
