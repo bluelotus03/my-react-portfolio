@@ -1,7 +1,8 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'Ashley Harmon'
-theme = 'portfolio'
+theme = ["hugo-embed-pdf-shortcode", "portfolio"]
+enableInlineShortcodes = true
 [privacy]
   [privacy.disqus]
     disable = false

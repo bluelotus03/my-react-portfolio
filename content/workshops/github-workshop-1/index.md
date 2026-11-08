@@ -21,3 +21,5 @@ Actual workshop on YT
 {{< /youtube >}}
 
 Content afterwards
+
+{{< embed-pdf url="./Web Team Guide 2022.pdf" >}}
