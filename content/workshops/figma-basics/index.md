@@ -6,7 +6,7 @@ title: |
 description: 
 weight: 4
 ---
-![traffic cone](/images/traffic-cone.png)
+![traffic cone](/images/traffic-cone.png "half no-border")
 
 **Pardon the interruption: Full website revamp in progress**
 

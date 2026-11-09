@@ -25,6 +25,25 @@
         border: var(--blue-light) 1px solid;
         margin: 1rem;
         width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    img.ten {
+        width: 10%;
+    }
+    img.quarter {
+        width: 25%;
+    }
+    img.half {
+        width: 50%;
+    }
+    img.three-quarters{
+        width: 75%;
+    }
+    img.no-border {
+        border: none;
     }
     a {
         color: rgb(0, 55, 131);
