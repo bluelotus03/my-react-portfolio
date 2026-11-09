@@ -1,7 +1,8 @@
 ---
 date: 2026-11-09T01:18:49Z
 draft: true
-title: ✅ Selenium Automation
+title: Selenium Automation
+card_title: ✅ Selenium Automation
 weight: 1
 ---
 COURSE STATUS: COMPLETE
