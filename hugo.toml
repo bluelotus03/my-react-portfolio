@@ -36,8 +36,8 @@ enableInlineShortcodes = true
     weight = 20
 
   [[menus.main]]
-    name = 'Websites & Prototypes'
-    pageRef = '/#website-n-prototypes'
+    name = 'Web & App'
+    pageRef = '/#web-and-app'
     weight = 30
   
   [[menus.main]]

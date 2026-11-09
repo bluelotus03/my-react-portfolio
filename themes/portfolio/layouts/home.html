@@ -63,11 +63,11 @@
       {{- end -}}
     </div>
   </section>
-  <section id="website-n-prototypes">
+  <section id="web-and-app">
     <div class="blue-bg"></div>
-    <h2>Website and Prototypes</h2>
+    <h2>Web & App</h2>
     <div class="project-cards">
-      {{- range where .Site.Sections "Type" "guides" -}}
+      {{- range where .Site.Sections "Type" "web-and-app" -}}
         {{- range .Pages -}}
           {{- .Render "_views/card" -}}
         {{- end -}}
@@ -77,7 +77,28 @@
   <section id="games">
     <h2>Games</h2>
     <div class="project-cards">
-      {{- range where .Site.Sections "Type" "guides" -}}
+      {{- range where .Site.Sections "Type" "games" -}}
+        {{- range .Pages -}}
+          {{- .Render "_views/card" -}}
+        {{- end -}}
+      {{- end -}}
+    </div>
+  </section>
+  <section id="courses-and-certs">
+    <div class="blue-bg"></div>
+    <h2>Courses & Certs</h2>
+    <div class="project-cards">
+      {{- range where .Site.Sections "Type" "courses-and-certs" -}}
+        {{- range .Pages -}}
+          {{- .Render "_views/card" -}}
+        {{- end -}}
+      {{- end -}}
+    </div>
+  </section>
+  <section id="community">
+    <h2>Community</h2>
+    <div class="project-cards">
+      {{- range where .Site.Sections "Type" "community" -}}
         {{- range .Pages -}}
           {{- .Render "_views/card" -}}
         {{- end -}}
