@@ -6,10 +6,9 @@ title: |
 description: 
 weight: 4
 ---
-![traffic cone](/images/traffic-cone.png "half no-border")
 
-**Pardon the interruption: Full website revamp in progress**
+## 🚧 Pardon the interruption: Full website revamp in progress
 
-During this process, you may notice missing content, broken links, etc. These will be resolved shortly. 
+During this process, you may notice some missing content, broken links, etc. These will be resolved shortly. 
 
 Appreciate your patience! 

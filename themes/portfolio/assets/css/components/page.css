@@ -12,6 +12,9 @@
         font-size: 3rem;
         color: black;
     }
+    h2 {
+        color: black;
+    }
     p, figcaption {
         font-size: var(--font-regular);
         margin-top: 0.5rem;
@@ -26,9 +29,10 @@
         margin: 1rem;
         width: 100%;
         display: block;
+    }
+    img.centered {
         margin-left: auto;
         margin-right: auto;
-
     }
     img.ten {
         width: 10%;
