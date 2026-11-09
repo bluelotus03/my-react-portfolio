@@ -39,7 +39,7 @@ html {
   /* mobile
      font-size: 30%; */
   @media (max-width: 28em) {
-    font-size: 30%;
+    font-size: 35%;
   }
   /* wide screen
     font-size: 75%; // 1rem = 12, 12/16 */
