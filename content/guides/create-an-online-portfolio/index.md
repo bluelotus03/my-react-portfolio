@@ -1,9 +1,9 @@
 ---
 date: 2026-11-09T04:03:50Z
 draft: true
-title: Portfolio Guide
+title: Create a Portfolio
 description: 
-weight: 
+weight: 5
 ---
 
 {{< embed-pdf url="./Portfolio Guide.pdf" >}}

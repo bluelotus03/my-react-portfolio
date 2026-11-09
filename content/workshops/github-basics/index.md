@@ -12,4 +12,4 @@ weight: 1
 
 This is a workshop from Girls Who Code at UNC Charlotte where we walked through a step-by-step guide learning how to install Git, VS Code, and Hugo, and then work with Git using VS Code. In this workshop, you can learn to do things like forking and cloning a repository, committing, and pushing. 
 
-**[📝 Workshop Guide](https://github.com/bluelotus03/Git-Intro)** &nbsp;|&nbsp; **[📝 Setup Guide (Installs)]({{< relref "guides/setup-vscode-gh-hugo" >}})**
+**[📘 Setup Guide (Installs)]({{< relref "guides/setup-vscode-gh-hugo" >}})** &nbsp;|&nbsp; **[🗃️ Repo (Workshop Guide)](https://github.com/bluelotus03/Git-Intro)**

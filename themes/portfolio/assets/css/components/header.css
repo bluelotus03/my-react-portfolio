@@ -43,7 +43,7 @@ nav {
 }
 
 /* Mobile navigation */
-@media (max-width: 768px) {
+@media (max-width: 52em) {
   .headerContent {
     flex-wrap: wrap;
   }

@@ -1,5 +1,6 @@
 ---
 date: 2026-11-09T01:15:56Z
 draft: true
-title: Website Gwc Prototype
+title: GWC Site Prototype [v2]
+weight: 5
 ---
