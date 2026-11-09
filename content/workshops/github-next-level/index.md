@@ -11,7 +11,4 @@ This is a workshop from a Girls Who Code at UNC Charlotte meeting where we walke
 {{< youtube 6gm8t2z4QNI >}}
 {{< /youtube >}}
 
-
-[📝 Workshop Guide](https://github.com/bluelotus03/Git-Intro)
-
-[📝 Setup Guide (Installs)]({{< relref "guides/setup-vscode-gh-hugo" >}})
+**[📝 Workshop Guide](https://github.com/bluelotus03/Git-Intro)** &nbsp;|&nbsp; **[📝 Setup Guide (Installs)]({{< relref "guides/setup-vscode-gh-hugo" >}})**
