@@ -5,4 +5,8 @@ title: Hack 101
 weight: 9
 ---
 
-https://www.youtube.com/live/5T0V05KFNFo?si=lS82HNdRV3jsU8zY&t=23555
+## 🚧 Pardon the interruption: Full website revamp in progress
+
+During this process, you may notice some missing content, broken links, etc. These will be resolved shortly. 
+
+Appreciate your patience! 

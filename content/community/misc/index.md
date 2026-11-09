@@ -5,5 +5,8 @@ title: Misc
 weight: 
 ---
 
-Content creation (graphics), video editing, screenplay reviews, etc.
-Hackathon projects in general
+## 🚧 Pardon the interruption: Full website revamp in progress
+
+During this process, you may notice some missing content, broken links, etc. These will be resolved shortly. 
+
+Appreciate your patience!
