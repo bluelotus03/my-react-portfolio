@@ -3,7 +3,7 @@ date: 2026-11-08T10:20:30-05:00
 draft: true
 title: |
     GitHub: Setup & Basics
-description: Setup a dev environment and learn some of the basics of git.
+description:
 weight: 1
 ---
   

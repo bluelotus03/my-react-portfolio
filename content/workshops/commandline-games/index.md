@@ -1,5 +1,6 @@
 ---
 date: 2026-11-09T00:55:21Z
 draft: true
-title: Workshop Commandline Games
+title: Commandline Games
+weight: 8
 ---

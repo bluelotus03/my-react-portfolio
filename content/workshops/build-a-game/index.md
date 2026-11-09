@@ -1,9 +1,9 @@
 ---
 date: 2026-11-09T00:55:41Z
 draft: true
-title: Build a Game Workshop
+title: Build a Game
 description:
-weight: 6
+weight: 7
 ---
 
 🎥 Workshop Recording - to be uploaded
