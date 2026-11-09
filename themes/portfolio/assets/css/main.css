@@ -89,6 +89,15 @@ h3 {
   bottom: -8rem;
   z-index: -100;
 }
+.white-bg {
+  background-color: aliceblue;
+  width: 200vw;
+  position: absolute;
+  transform: translateX(-50%);
+  top: -2rem;
+  bottom: -8rem;
+  z-index: -100;
+}
 
 .blue-bg ~ * {
   /* when background is blue text color is black */
