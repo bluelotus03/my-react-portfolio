@@ -1,6 +1,6 @@
 ---
 date: 2026-11-09T01:50:29Z
-draft: true
+draft: false
 title: Axe Hacks Website
 weight: 2
 ---

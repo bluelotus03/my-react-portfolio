@@ -1,6 +1,6 @@
 ---
 date: 2026-11-09T01:18:57Z
-draft: true
+draft: false
 title: Playwright Automation
 card_title: ✅ Playwright Automation
 weight: 2

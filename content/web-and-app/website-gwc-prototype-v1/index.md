@@ -1,6 +1,6 @@
 ---
 date: 2026-11-09T15:55:35Z
-draft: true
+draft: false
 title: GWC Site Prototype [v1]
 weight: 7
 ---

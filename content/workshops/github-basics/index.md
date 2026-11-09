@@ -1,6 +1,6 @@
 ---
 date: 2026-11-08T10:20:30-05:00
-draft: true
+draft: false
 title: |
     GitHub: Setup & Basics
 description:

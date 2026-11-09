@@ -1,6 +1,6 @@
 ---
 date: 2026-11-09T01:08:22Z
-draft: true
+draft: false
 title: Save the Holiday
 weight: 1
 ---

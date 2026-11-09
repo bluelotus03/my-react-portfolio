@@ -1,6 +1,6 @@
 ---
 date: 2026-11-09T16:11:35Z
-draft: true
+draft: false
 title: Sms Hangman
 ---
 ## 🚧 Pardon the interruption: Full website revamp in progress

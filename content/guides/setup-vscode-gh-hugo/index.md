@@ -1,6 +1,6 @@
 ---
 date: 2026-11-09T03:33:16Z
-draft: true
+draft: false
 title: Setup GH, VS Code, Hugo
 weight: 1
 ---

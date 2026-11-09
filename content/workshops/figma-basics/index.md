@@ -1,6 +1,6 @@
 ---
 date: 2026-11-08T12:57:54-05:00
-draft: true
+draft: false
 title: |
   Figma: Basics
 description: 
