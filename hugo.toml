@@ -45,6 +45,16 @@ enableInlineShortcodes = true
     pageRef = '/#games'
     weight = 40
 
+  [[menus.main]]
+    name = 'Courses & Certs'
+    pageRef = '/#courses-and-certs'
+    weight = 50
+
+  [[menus.main]]
+    name = 'Community'
+    pageRef = '/#community'
+    weight = 60
+
 
 [module]
   [module.hugoVersion]
