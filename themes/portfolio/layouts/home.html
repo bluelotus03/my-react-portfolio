@@ -64,7 +64,18 @@
     </div>
   </section>
   <section id="website-n-prototypes">
-    <h2>Guides</h2>
+    <div class="blue-bg"></div>
+    <h2>Website and Prototypes</h2>
+    <div class="project-cards">
+      {{- range where .Site.Sections "Type" "guides" -}}
+        {{- range .Pages -}}
+          {{- .Render "_views/card" -}}
+        {{- end -}}
+      {{- end -}}
+    </div>
+  </section>
+  <section id="games">
+    <h2>Games</h2>
     <div class="project-cards">
       {{- range where .Site.Sections "Type" "guides" -}}
         {{- range .Pages -}}

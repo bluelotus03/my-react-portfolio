@@ -26,28 +26,23 @@ enableInlineShortcodes = true
 
 [menus]
   [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-
-  [[menus.main]]
     name = 'Workshops'
     pageRef = '/#workshops'
-    weight = 20
+    weight = 10
 
   [[menus.main]]
     name = 'Guides'
     pageRef = '/#guides'
-    weight = 30
+    weight = 20
 
   [[menus.main]]
     name = 'Websites & Prototypes'
-    pageRef = '/#guides'
-    weight = 40
+    pageRef = '/#website-n-prototypes'
+    weight = 30
   
   [[menus.main]]
-    name = 'Websites & Prototypes'
-    pageRef = '/#website-n-prototypes'
+    name = 'Games'
+    pageRef = '/#games'
     weight = 40
 
 
