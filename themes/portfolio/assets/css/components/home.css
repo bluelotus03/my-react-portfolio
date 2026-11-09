@@ -1,0 +1,85 @@
+.is-home {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  justify-content: space-evenly;
+}
+
+.is-home section {
+  position: relative;
+  isolation: isolate;
+  padding-top: 2rem;
+}
+
+#landing {
+  display: grid;
+  gap: 2.5rem;
+  grid-auto-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+
+  img {
+    margin-top: -3rem;
+    grid-row: span 1;
+    grid-column: span 2;
+    max-width: 100%;
+    @media (max-width: 50em) {
+      grid-column: span 4;
+      margin-top: 0rem;
+    }
+  }
+}
+
+.headline {
+  color: white;
+  font-weight: 500;
+  grid-column: span 4;
+  grid-row: span 1;
+  align-items: center;
+  span {
+    color: var(--blue-regular);
+    font-weight: bold;
+  }
+}
+
+.hero-p {
+  grid-column: span 2;
+  @media (max-width: 50em) {
+    grid-column: span 4;
+  }
+  h2 {
+    margin-bottom: .5rem;
+  }
+  p {
+    font-size: var(--font-regular);
+  }
+  p:not(:nth-child(2)) {
+    margin-top: 1.2rem;
+  }
+  p:not(:last-child){
+    margin-bottom: 1rem;
+  }
+}
+
+.social {
+  margin-top: 4rem;
+}
+
+.social-container {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.social-link svg {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.project-cards {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}

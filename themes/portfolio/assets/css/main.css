@@ -1,0 +1,126 @@
+@import "https://fonts.googleapis.com/css?family=Noto+Sans|Roboto";
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/home.css";
+@import "components/card.css";
+@import "components/page.css";
+
+:root {
+  --blue-lightest: hsl(0, 0%, 0%);
+  --blue-regular: #38b6ff;
+  --blue-dark: #2d2b3d;
+  --blue-light: #3db6fc;
+  --font-xsmall: 1.3rem;
+  --font-small: 1.4rem;
+  --font-regular: 1.6rem;
+  --font-large: 1.9rem;
+  --font-xlarge: 2.4rem;
+  --base-width: 85vw;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* for rem calculation to 10px start */
+  font-size: 62.5%; /* 1rem = 10px; 10px/16px = 62.5% */
+  background-color: black;
+  overflow-x: hidden;
+
+  /* tablet landscape
+  font-size: 56.25%; // 1 rem = 9px, 9/16 = 50% */
+  /* tablet portrait
+    font-size: 50%; // 1rem = 8px, 8/16 = 50% */
+  /* mobile
+     font-size: 30%; */
+  @media (max-width: 28em) {
+    font-size: 35%;
+  }
+  /* wide screen
+    font-size: 75%; // 1rem = 12, 12/16 */
+}
+
+body {
+  box-sizing: border-box;
+  /* tablet portrait
+    padding: 0; */
+  color: var(--blue-regular);
+  font-family: Roboto;
+}
+
+:link, :visited {
+  color: var(--blue-regular);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Noto Sans;
+  margin: 0;
+  color: var(--blue-regular);
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+.white {
+  color: white;
+}
+.blue-bg {
+  background-color: var(--blue-light);
+  width: 200vw;
+  position: absolute;
+  transform: translateX(-50%);
+  top: -2rem;
+  bottom: -8rem;
+  z-index: -100;
+}
+.white-bg {
+  background-color: aliceblue;
+  width: 200vw;
+  position: absolute;
+  transform: translateX(-50%);
+  top: -2rem;
+  bottom: -8rem;
+  z-index: -100;
+}
+
+.blue-bg ~ * {
+  /* when background is blue text color is black */
+  color: black;
+}
+/* ::selection {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+} */
+
+main {
+  width: var(--base-width);
+  max-width: 100rem;
+  margin: auto;
+  padding: 10rem 0;
+  @media (max-width: 50em) {
+    width: 85vw;
+  }
+  @media (max-width: 25em) {
+    width: 92vw;
+  }
+}
+
+.vidcaption {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,53 @@
+.is-page {
+    color: white;
+    font-weight: 500;
+    min-height: 95vh;
+    padding-bottom: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    h1 {
+        padding-bottom: 2rem;
+        font-size: 3rem;
+        color: black;
+    }
+    h2 {
+        color: black;
+    }
+    p, figcaption {
+        font-size: var(--font-regular);
+        margin-top: 0.5rem;
+        color: black;
+        padding-bottom: 1rem;
+    }
+    figcaption {
+        text-align: center;
+    }
+    img {
+        border: var(--blue-light) 1px solid;
+        margin: 1rem;
+        width: 100%;
+        display: block;
+    }
+    img.centered {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img.ten {
+        width: 10%;
+    }
+    img.quarter {
+        width: 25%;
+    }
+    img.half {
+        width: 50%;
+    }
+    img.three-quarters{
+        width: 75%;
+    }
+    img.no-border {
+        border: none;
+    }
+    a {
+        color: rgb(0, 55, 131);
+    }
+}
