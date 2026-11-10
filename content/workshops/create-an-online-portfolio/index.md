@@ -5,9 +5,7 @@ title: Create an Online Portfolio
 description: 
 weight: 6
 ---
-
-{{< youtube SmwN-Ih-VG0 >}}
-{{< /youtube >}}
+{{< youtube id=SmwN-Ih-VG0 >}}
 
 This is a workshop from Girls Who Code at UNC Charlotte where we learned to create an online portfolio from a template by simply replacing some of the HTML and CSS. We use Replit for an easy browser editor, but there are instructions for using VS Code and GitHub listed in the guide as well. 
 

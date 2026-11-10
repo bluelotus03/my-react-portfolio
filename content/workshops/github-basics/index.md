@@ -7,8 +7,7 @@ description:
 weight: 1
 ---
   
-{{< youtube cGU5RUMHy38 >}}
-{{< /youtube >}}
+{{< youtube id=cGU5RUMHy38 >}}
 
 This is a workshop from Girls Who Code at UNC Charlotte where we walked through a step-by-step guide learning how to install Git, VS Code, and Hugo, and then work with Git using VS Code. In this workshop, you can learn to do things like forking and cloning a repository, committing, and pushing. 
 

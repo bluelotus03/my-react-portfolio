@@ -6,8 +6,7 @@ description:
 weight: 3
 ---
 
-{{< youtube Bf4LrJVhRTs >}}
-{{< /youtube >}}
+{{< youtube id=Bf4LrJVhRTs >}}
 
 This is a workshop from a Girls Who Code at UNC Charlotte meeting where we walked through the folders in our website repo and then practiced making some changes to the template site. In this workshop, you can learn about Hugo, the various folders and file types used in our repo, and test out making changes with your own fork.
 
