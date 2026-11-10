@@ -4,8 +4,4 @@ draft: false
 title: CRS Project Management
 weight: 10
 ---
-## 🚧 Pardon the interruption: Full website revamp in progress
-
-During this process, you may notice some missing content, broken links, etc. These will be resolved shortly. 
-
-Appreciate your patience! 
+{{< embed-pdf url="./Project Guide '22_Redacted.pdf" >}}

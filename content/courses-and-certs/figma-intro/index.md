@@ -4,6 +4,7 @@ draft: false
 title: Figma UI UX Design
 card_title: 🔄 Figma UI UX Design
 weight: 5
+card_link: https://www.udemy.com/course/figma-ux-ui-design-user-experience-tutorial-course/
 ---
 COURSE STATUS: IN-PROGRESS
 

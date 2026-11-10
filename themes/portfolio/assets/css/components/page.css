@@ -23,7 +23,6 @@
         text-align: center;
     }
     img {
-        border: var(--blue-light) 1px solid;
         margin: 1rem;
         width: 100%;
         display: block;
@@ -43,9 +42,6 @@
     }
     img.three-quarters{
         width: 75%;
-    }
-    img.no-border {
-        border: none;
     }
     a {
         color: rgb(0, 55, 131);

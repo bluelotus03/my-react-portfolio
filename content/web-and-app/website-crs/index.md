@@ -3,6 +3,7 @@ date: 2026-11-09T01:16:11Z
 draft: false
 title: CRS Website
 weight: 3
+card_link: https://www.climaterefugeestories.com/
 ---
 ## 🚧 Pardon the interruption: Full website revamp in progress
 

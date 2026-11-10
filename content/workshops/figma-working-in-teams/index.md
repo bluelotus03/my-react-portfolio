@@ -6,8 +6,8 @@ title: |
 description: 
 weight: 5
 ---
-## 🚧 Pardon the interruption: Full website revamp in progress
+🎥 Workshop Recording - to be added
 
-During this process, you may notice some missing content, broken links, etc. These will be resolved shortly. 
+This is a workshop from Girls Who Code at UNC Charlotte where we walked through learning the basics of working with a team in Figma and using a team style guide to create a simple website prototype. 
 
-Appreciate your patience! 
+**[📘 Workshop Guide]({{< relref "guides/figma-basics" >}})**

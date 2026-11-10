@@ -4,6 +4,7 @@ draft: false
 title: AI Coding
 card_title: 🔄 AI Coding
 weight: 3
+card_link: https://www.boot.dev/courses/learn-ai-coding
 ---
 COURSE STATUS: IN-PROGRESS
 

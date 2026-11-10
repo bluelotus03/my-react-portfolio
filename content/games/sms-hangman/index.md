@@ -1,7 +1,8 @@
 ---
 date: 2026-11-09T16:11:35Z
 draft: false
-title: Sms Hangman
+title: SMS Hangman
+card_link: https://youtu.be/qtLqbnlKoOg
 ---
 ## 🚧 Pardon the interruption: Full website revamp in progress
 

@@ -3,6 +3,7 @@ date: 2026-11-09T01:09:02Z
 draft: false
 title: Curse of Waldron
 weight: 3
+card_link: https://youtu.be/eO4vW0FHvbI
 ---
 ## 🚧 Pardon the interruption: Full website revamp in progress
 

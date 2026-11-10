@@ -4,6 +4,7 @@ draft: false
 title: Playwright Automation
 card_title: ✅ Playwright Automation
 weight: 2
+card_link: https://www.udemy.com/course/build-a-cucumber-playwright-typescript-automation-framework/
 ---
 COURSE STATUS: COMPLETE
 

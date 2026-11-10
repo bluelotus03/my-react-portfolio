@@ -4,6 +4,7 @@ draft: false
 title: Google UX Design
 card_title: 🔄 Google UX Design
 weight: 4
+card_link: https://www.coursera.org/google-certificates/ux-design-certificate
 ---
 COURSE STATUS: IN-PROGRESS
 

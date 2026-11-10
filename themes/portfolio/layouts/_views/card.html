@@ -1,8 +1,10 @@
-<a href="{{ .RelPermalink }}" class="cClink">
+{{ $url := compare.Conditional (isset .Params "card_link") .Params.card_link .RelPermalink  }}
+<a href="{{ $url }}" class="cClink" {{ if strings.HasPrefix $url "http" }} target="_blank" rel="noopener"{{ end }}>
   <div class="cardContainer">
     <h3>{{ compare.Conditional (isset .Params "card_title") .Params.card_title .Title  }}</h3>
     <p>{{ .Description }}</p>
     {{ with .Resources.GetMatch "cover.*" }}
+    
     <img src="{{ .RelPermalink }}" alt="">
     {{ end }}
   </div>
