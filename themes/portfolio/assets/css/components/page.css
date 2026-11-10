@@ -5,6 +5,11 @@
     padding-bottom: 2rem;
     padding-left: 10rem;
     padding-right: 10rem;
+
+    @media (max-width: 35em) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
     h1 {
         padding-bottom: 2rem;
         font-size: 3rem;
@@ -15,7 +20,7 @@
     }
     p, figcaption {
         font-size: var(--font-regular);
-        margin-top: 0.5rem;
+        margin-top: 1.2rem;
         color: black;
         padding-bottom: 1rem;
     }

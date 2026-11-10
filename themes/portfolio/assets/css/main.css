@@ -16,6 +16,18 @@
   --font-large: 1.9rem;
   --font-xlarge: 2.4rem;
   --base-width: 85vw;
+  --base-font-size: 62.5%;
+   @media (max-width: 50em) {
+    --base-width: 95vw;
+  }
+  @media (max-width: 30em) {
+   --base-width: 95vw;
+   --base-font-size: 55%;
+ }
+  @media (max-width: 25em) {
+    --base-width: 95vw;
+   --base-font-size: 50%;
+  }
 }
 
 *,
@@ -28,7 +40,7 @@
 
 html {
   /* for rem calculation to 10px start */
-  font-size: 62.5%; /* 1rem = 10px; 10px/16px = 62.5% */
+  font-size: var(--base-font-size); /* 1rem = 10px; 10px/16px = 62.5% */
   background-color: black;
   overflow-x: hidden;
 
@@ -38,9 +50,12 @@ html {
     font-size: 50%; // 1rem = 8px, 8/16 = 50% */
   /* mobile
      font-size: 30%; */
-  @media (max-width: 28em) {
-    font-size: 35%;
+  /* @media (max-width: 28em) {
+    font-size: 55%;
   }
+   @media (max-width: 25em) {
+    font-size: 45%;
+  } */
   /* wide screen
     font-size: 75%; // 1rem = 12, 12/16 */
 }
@@ -113,12 +128,7 @@ main {
   max-width: 100rem;
   margin: auto;
   padding: 10rem 0;
-  @media (max-width: 50em) {
-    width: 85vw;
-  }
-  @media (max-width: 25em) {
-    width: 92vw;
-  }
+ 
 }
 
 .vidcaption {
