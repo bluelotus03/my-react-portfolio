@@ -1,11 +1,21 @@
 ---
 date: 2026-11-09T15:59:48Z
 draft: false
-title: R&R Mobile App [v1]
+title: R&R App Prototype
 weight: 11
 ---
-## 🚧 Pardon the interruption: Full website revamp in progress
+![Project Overview](./project-overview.png)
 
-During this process, you may notice some missing content, broken links, etc. These will be resolved shortly. 
+This is a project for a mobile app version of the Recycle & Reuse idea. My team and I conducted needfinding, designed a mobile app prototype,  conducted user studies, and wrote about our findings. 
 
-Appreciate your patience! 
+This process was a lot of fun, to take an idea about painpoints in the recycling process, design a solution, and then get feedback from real users. You can checkout some of the documentation below!
+
+**[📘 UML Diagrams](https://drive.google.com/file/d/1bBXq5T9iHCRh6iRgvRo1DaJftwTTdhD-/view)**
+
+&nbsp;
+
+-------------------
+&nbsp;
+
+## Project Paper
+{{< embed-pdf url="./Project Paper - Recycle & Reuse.pdf" >}}
