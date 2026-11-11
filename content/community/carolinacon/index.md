@@ -11,7 +11,7 @@ weight: 1
 
 CarolinaCon is a hacking conference put together annually since 2005. It's a place for both local and global communities to learn more about technology, information/network/computer security, and information rights.
 
-I've been attending CarolinaCon since 2017, and for the 2026 conference, I got to help run it! I had such a blast working with fellow UNC Charlotte alumni that I met in the [49th Security Division](https://github.com/49thSecurityDivision), and getting to learn new tools and skills throughout the process. 
+I've been attending CarolinaCon since 2017, and for the 2026 conference, I got to help run it! I had such a blast working with fellow UNC Charlotte alumni that I met in the **[49th Security Division](https://github.com/49thSecurityDivision)**, and getting to learn new tools and skills throughout the process. 
 
 **Below are some of the things I did with CarolinaCon 2026:**
 

@@ -2,7 +2,7 @@
 date: 2026-11-09T01:07:13Z
 draft: false
 title: Girls Who Code
-weight: 1
+weight: 3
 ---
 ## 🚧 Pardon the interruption: Full website revamp in progress
 
