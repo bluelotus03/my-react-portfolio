@@ -41,7 +41,7 @@
 html {
   /* for rem calculation to 10px start */
   font-size: var(--base-font-size); /* 1rem = 10px; 10px/16px = 62.5% */
-  background-color: black;
+  background-color: aliceblue;
   overflow-x: hidden;
 
   /* tablet landscape
@@ -97,6 +97,15 @@ h3 {
 }
 .blue-bg {
   background-color: var(--blue-light);
+  width: 200vw;
+  position: absolute;
+  transform: translateX(-50%);
+  top: -2rem;
+  bottom: -8rem;
+  z-index: -100;
+}
+.black-bg {
+  background-color: black;
   width: 200vw;
   position: absolute;
   transform: translateX(-50%);

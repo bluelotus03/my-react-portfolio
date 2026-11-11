@@ -21,7 +21,9 @@
 {{- end }}
 
 {{ define "main" }}
+<div class="black-bg"></div>
   <section id="landing">
+    <div class="black-bg"></div>
     <h1 class="headline">{{ .Params.intro }} <span>{{.Params.name}}</span>!</h1>
     <article class="hero-p white">
       {{ .Content }}
@@ -54,6 +56,7 @@
     </div>
   </section>
   <section id="guides">
+    <div class="black-bg"></div>
     <h2>Guides</h2>
     <div class="project-cards">
       {{- range where .Site.Sections "Type" "guides" -}}
@@ -75,6 +78,7 @@
     </div>
   </section>
   <section id="games">
+    <div class="black-bg"></div>
     <h2>Games</h2>
     <div class="project-cards">
       {{- range where .Site.Sections "Type" "games" -}}
@@ -96,6 +100,7 @@
     </div>
   </section>
   <section id="community">
+    <div class="black-bg"></div>
     <h2>Community</h2>
     <div class="project-cards">
       {{- range where .Site.Sections "Type" "community" -}}
