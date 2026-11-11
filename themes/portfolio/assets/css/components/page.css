@@ -24,6 +24,12 @@
         color: black;
         padding-bottom: 1rem;
     }
+    li {
+        color: black;
+        list-style-type: none;
+        font-size: 1.6rem;
+        
+    }
     figcaption {
         text-align: center;
     }
